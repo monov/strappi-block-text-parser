@@ -1,3 +1,13 @@
+# Installation
+
+```
+npm i strapi-block-text-parser
+```
+
+## npmjs url
+
+https://www.npmjs.com/package/strapi-block-text-parser
+
 # BlocksRenderer
 
 This function is designed to render rich text blocks fetched from Strapi. It converts the structured data of the article body into HTML elements based on the type of content present.
