@@ -27,7 +27,7 @@ The `BlocksRenderer` function iterates through each block of the article body an
 To use this function, pass the article body fetched from Strapi as an argument to the function. It will return an array of HTML strings, each representing a rendered block of the article body.
 
 ```javascript
-import { BlocksRenderer } from './BlocksRenderer';
+ import { BlocksRenderer } from "strapi-block-text-parser";
 
 const articleBody = /* Fetch article body from Strapi */;
 const renderedBlocks = BlocksRenderer(articleBody);
