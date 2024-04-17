@@ -1,12 +1,12 @@
 {
-  "name": "strappi-block-text-renderer",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "strapi-block-text-parser",
+  "version": "1.0.4",
+  "description": "A JavaScript function for rendering rich text blocks fetched from Strapi. This function converts structured article bodies into HTML elements, handling various content types like headings, lists, quotes, paragraphs, and images.",
+  "main": "src/app.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "monov",
   "license": "ISC"
 }
