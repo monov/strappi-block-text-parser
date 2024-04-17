@@ -6,7 +6,8 @@ export function BlocksRenderer(articleBody) {
 			case 'heading':
 				temp = `<h${article.level}>${article.children[0].text}</h${article.level}>`;
 				block.push(temp);
-				break;
+			break;
+				
 			case 'list':
 				let format = article.format == 'ordered' ? 'ol' : 'ul';
 				let listItems = '';
@@ -15,19 +16,22 @@ export function BlocksRenderer(articleBody) {
 				});
 				temp = `<${format}>${listItems}</${format}>`;
 				block.push(temp);
-				break;
+			break;
+				
 			case 'quote':
 				temp = `<q>${article.children[0].text}</q>`;
 				block.push(temp);
-				break;
+			break;
+				
 			case 'paragraph':
 				temp = `<p>${article.children[0].text}</p>`;
 				block.push(temp);
-				break;
+			break;
+				
 			case 'image':
-        temp = `<img src=${article.image.url} width="100%" height="auto"/>`;
+         			temp = `<img src=${article.image.url} width="100%" height="auto"/>`;
 				block.push(temp);
-				break;
+			break;
 		}
 	});
 	return block;
