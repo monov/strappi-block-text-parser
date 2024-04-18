@@ -63,7 +63,7 @@ The renderedBlocks array now contains HTML strings representing each block of th
 
 ## Rendered Output
 Assuming the article body contains various types of content, the rendered output might look like this:
-```javascript
+```html
 <h1>Sample Heading</h1>
 <p>This is a sample paragraph.</p>
 <ul>
