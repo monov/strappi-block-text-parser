@@ -54,7 +54,7 @@ const articleBody = [
 We can then render this article body using the BlocksRenderer function:
 
 ```javascript
-import { BlocksRenderer } from './BlocksRenderer';
+import { BlocksRenderer } from "strapi-block-text-parser";
 
 const renderedBlocks = BlocksRenderer(articleBody);
 ```
